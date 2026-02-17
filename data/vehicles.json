@@ -1,0 +1,61 @@
+{
+  "services": [
+    {
+      "id": "brake-pads",
+      "name": "cambio de pastillas de freno"
+    },
+    {
+      "id": "brake-discs",
+      "name": "cambio de discos de freno"
+    },
+    {
+      "id": "basic-maintenance",
+      "name": "mantenimiento basico"
+    },
+    {
+      "id": "preventive-inspection",
+      "name": "inspeccion preventiva"
+    }
+  ],
+  "vehicles": [
+    {
+      "make": "Nissan",
+      "models": [
+        {
+          "name": "Tiida 1.6",
+          "compatibleParts": [
+            "Pastillas de freno",
+            "Discos de freno",
+            "Filtro de aceite",
+            "Filtro de aire"
+          ],
+          "referentialPricing": {
+            "brake-pads": "$XX.XXX CLP (precio referencial de repuestos)",
+            "brake-discs": "$XX.XXX CLP (precio referencial de repuestos)",
+            "basic-maintenance": "$XX.XXX CLP (precio referencial de repuestos)",
+            "preventive-inspection": "$XX.XXX CLP (precio referencial de repuestos)"
+          }
+        }
+      ]
+    },
+    {
+      "make": "Toyota",
+      "models": [
+        {
+          "name": "Corolla 1.8",
+          "compatibleParts": [
+            "Pastillas de freno",
+            "Discos de freno",
+            "Filtro de aceite"
+          ],
+          "referentialPricing": {
+            "brake-pads": "$XX.XXX CLP (precio referencial de repuestos)",
+            "brake-discs": "$XX.XXX CLP (precio referencial de repuestos)",
+            "basic-maintenance": "$XX.XXX CLP (precio referencial de repuestos)",
+            "preventive-inspection": "$XX.XXX CLP (precio referencial de repuestos)"
+          }
+        }
+      ]
+    }
+  ]
+}
